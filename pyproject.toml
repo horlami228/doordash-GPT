@@ -1,0 +1,20 @@
+[project]
+name = "doordash"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "langchain[google-genai,groq]>=0.3.27",
+    "langgraph>=0.6.6",
+    "llama-cloud-services>=0.6.54",
+    "llama-index>=0.13.3",
+    "llama-index-embeddings-google-genai>=0.3.0",
+    "llama-index-llms-gemini>=0.6.0",
+    "llama-index-llms-groq>=0.4.0",
+    "llama-index-vector-stores-postgres>=0.6.4",
+    "llama-parse>=0.6.54",
+    "pyppeteer>=0.0.25",
+    "rich>=14.1.0",
+    "streamlit>=1.49.1",
+]
